@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Produto {
+  cProd: String!
+  xProd: String!
+  qCom: Float!
+}
+
+type Nfe {
+  id: ID!
+  emitente: String!
+  produtos: [Produto!]!
+}
+
+type Query {
+  nfe: Nfe!
+}

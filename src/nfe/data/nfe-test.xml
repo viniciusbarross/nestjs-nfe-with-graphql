@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe>
+      <emit>
+        <xNome>Empresa Exemplo LTDA</xNome>
+      </emit>
+      <det nItem="1">
+        <prod>
+          <cProd>001</cProd>
+          <xProd>Produto A</xProd>
+          <qCom>2.00</qCom>
+        </prod>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>002</cProd>
+          <xProd>Produto B</xProd>
+          <qCom>1.50</qCom>
+        </prod>
+      </det>
+    </infNFe>
+  </NFe>
+</nfeProc>
